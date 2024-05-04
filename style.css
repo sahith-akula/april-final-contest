@@ -1,0 +1,105 @@
+.container {
+    width: 1512px;
+    height: 76px;
+    gap: 0px;
+    opacity: 0px;
+    background: #000000;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #ab2e2e; /* Adjust color as needed */
+    line-height: 76px; /* Vertically center the heading */
+}
+
+input[type="text"] {
+    width: 1226px;
+    height: 65px;
+    top: 104px;
+    left: 29px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;     
+    background: #D9D9D9;
+    border: 1px solid #000000
+  
+}
+
+button {
+    width: 217px;
+    height: 66px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+}
+
+#searchButton {
+    width: 217px;
+    height: 66px;
+    top: 103px;
+    left: 1268px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+#sortAZ {
+    width: 217px;
+    height: 66px;
+    top: 197px;
+    left: 29px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+#sortZA {
+    width: 217px;
+    height: 66px;
+    top: 197px;
+    left: 276px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+#sortByMarks {
+    width: 217px;
+    height: 66px;
+    top: 197px;
+    left: 523px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+#sortByPassing {
+    width: 217px;
+height: 66px;
+top: 197px;
+left: 770px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+#sortByClass {
+    width: 217px;
+    height: 66px;
+    top: 197px;
+    left: 1017px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+#sortByGender {
+    width: 217px;
+    height: 66px;
+    top: 197px;
+    left: 1264px;
+    gap: 0px;
+    opacity: 0px;
+    
+}

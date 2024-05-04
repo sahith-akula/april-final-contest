@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>STUDENT PORTAL</h1>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="search()">Search</button>
+        <div class="flex-container">
+            <button onclick="sortAZ()">Sort A->Z</button>
+            <button onclick="sortZA()">Sort Z->A</button>
+            <button onclick="sortByMarks()">Sort by Marks</button>
+            <button onclick="sortByPassing()">Sort by Passing</button>
+            <button onclick="sortByClass()">Sort by Class</button>
+            <button onclick="sortByGender()">Sort by Gender</button>
+        </div>
+        <table id="studentTable" border="2">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Table data will be inserted here dynamically -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
